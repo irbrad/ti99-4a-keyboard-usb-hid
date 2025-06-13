@@ -69,8 +69,8 @@ KEYMAP = {
   ("1Y0", "INT9"): ('T', Keycode.T),
   ("1Y0", "INT7"): ('5', Keycode.FIVE),
 
-  ("2Y0", "INT3"): ('=', Keycode.EQUALS), # FIXME: does not work
-  ("2Y0", "INT4"): ('SPACE', Keycode.SPACE), # FIXME: does not work
+  ("2Y0", "INT3"): ('=', Keycode.EQUALS), # FIXME: does not work, probably my keyboard
+  ("2Y0", "INT4"): ('SPACE', Keycode.SPACE), # FIXME: does not work, probably my keyboard
   ("2Y0", "INT5"): ('ENTER', Keycode.ENTER),
   ("2Y0", "INT6"): ('UNUSED', Keycode.F24),
   ("2Y0", "INT10"): ('UNUSED', Keycode.F24),
