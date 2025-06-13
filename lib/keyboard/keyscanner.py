@@ -34,17 +34,17 @@ class KeyScanner:
 	def _on_press(self, key):
 		if key in self.keymap:
 			char, keycode = self.keymap[key]
-			print(f"key pressed: {char} (col GP{key[0]}, row GP{key[1]})")
+			print(f"key pressed: {char} (col {key[0]}, row {key[1]})")
 
 			self.keyboard.press(keycode)
 		else:
-			print(f"key pressed: unknown (col GP{key[0]}, row GP{key[1]})")
+			print(f"key pressed: unknown (col {key[0]}, row {key[1]})")
 
 	def _on_release(self, key):
 		if key in self.keymap:
 			char, keycode = self.keymap[key]
-			print(f"key released: {char} (col GP{key[0]}, row GP{key[1]})")
+			print(f"key released: {char} (col {key[0]}, row {key[1]})")
 
 			self.keyboard.release(keycode)
 		else:
-			print(f"key released: unknown (col GP{key[0]}, row GP{key[1]})")
+			print(f"key released: unknown (col {key[0]}, row {key[1]})")
