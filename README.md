@@ -1,6 +1,6 @@
 # TI-99/4A Keyboard USB HID Converter
 
-This project allows for the keyboard for a TI-99/4A (I recommend the Alps model) to connect to a modern computer using a Pico running CircuitPython as a HID keyboard device. Useful when using an emulator.
+This project allows for the keyboard for a TI-99/4A (I recommend the Alps model) to connect to a modern computer using a microcontroller running CircuitPython as a HID keyboard device. Useful when using an emulator.
 
 ![Keyboard](docs/keyboard_photo.jpg)
 
