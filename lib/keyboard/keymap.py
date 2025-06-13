@@ -72,8 +72,8 @@ KEYMAP = {
   ("2Y0", "INT3"): ('=', Keycode.EQUALS), # FIXME: does not work, probably my keyboard
   ("2Y0", "INT4"): ('SPACE', Keycode.SPACE), # FIXME: does not work, probably my keyboard
   ("2Y0", "INT5"): ('ENTER', Keycode.ENTER),
-  ("2Y0", "INT6"): ('UNUSED', None),
-  ("2Y0", "INT10"): ('UNUSED', None),
+  ("2Y0", "INT6"): ('UNUSED', None), # no key here in the keyboard matrix
+  ("2Y0", "INT10"): ('UNUSED', None), # no key here in the keyboard matrix
   ("2Y0", "INT8"): ('SHIFT', None), # FIXME: not yet implemented
   ("2Y0", "INT9"): ('CONTROL', None), # FIXME: not yet implemented
   ("2Y0", "INT7"): ('FUNCTION', None), # FIXME: not yet implemented
