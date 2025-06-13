@@ -25,16 +25,16 @@ ROW_PINS = {
 
 KEYMAP = {
   ("1Y1", "INT3"): ('/', Keycode.FORWARD_SLASH),
-  ("1Y1", "INT4"): (';', Keycode.SEMICOLON),  # does not work
+  ("1Y1", "INT4"): (';', Keycode.SEMICOLON), # FIXME: does not work, probably my keyboard
   ("1Y1", "INT5"): ('P', Keycode.P),
   ("1Y1", "INT6"): ('0', Keycode.ZERO),
   ("1Y1", "INT10"): ('Z', Keycode.Z),
   ("1Y1", "INT8"): ('A', Keycode.A),
-  ("1Y1", "INT9"): ('Q', Keycode.Q), # doesn't work most times
-  ("1Y1", "INT7"): ('1', Keycode.ONE), # does not work
+  ("1Y1", "INT9"): ('Q', Keycode.Q), # FIXME: doesn't work most times, probably my keyboard
+  ("1Y1", "INT7"): ('1', Keycode.ONE), # FIXME: does not work, probably my keyboard
 
   ("2Y1", "INT3"): ('.', Keycode.PERIOD),
-  ("2Y1", "INT4"): ('L', Keycode.L), # does not work
+  ("2Y1", "INT4"): ('L', Keycode.L), # FIXME: does not work, probably my keyboard
   ("2Y1", "INT5"): ('O', Keycode.O),
   ("2Y1", "INT6"): ('9', Keycode.NINE),
   ("2Y1", "INT10"): ('X', Keycode.X),
@@ -43,7 +43,7 @@ KEYMAP = {
   ("2Y1", "INT7"): ('2', Keycode.TWO),
 
   ("2Y2", "INT3"): (',', Keycode.COMMA),
-  ("2Y2", "INT4"): ('K', Keycode.K), # does not work
+  ("2Y2", "INT4"): ('K', Keycode.K), # FIXME: does not work, probably my keyboard
   ("2Y2", "INT5"): ('I', Keycode.I),
   ("2Y2", "INT6"): ('8', Keycode.EIGHT),
   ("2Y2", "INT10"): ('C', Keycode.C),
@@ -52,7 +52,7 @@ KEYMAP = {
   ("2Y2", "INT7"): ('3', Keycode.THREE),
 
   ("2Y3", "INT3"): ('M', Keycode.M),
-  ("2Y3", "INT4"): ('J', Keycode.J), # does not work
+  ("2Y3", "INT4"): ('J', Keycode.J), # FIXME: does not work, probably my keyboard
   ("2Y3", "INT5"): ('U', Keycode.U),
   ("2Y3", "INT6"): ('7', Keycode.SEVEN),
   ("2Y3", "INT10"): ('V', Keycode.V),
@@ -61,7 +61,7 @@ KEYMAP = {
   ("2Y3", "INT7"): ('4', Keycode.FOUR),
 
   ("1Y0", "INT3"): ('N', Keycode.N),
-  ("1Y0", "INT4"): ('H', Keycode.H), # does not work
+  ("1Y0", "INT4"): ('H', Keycode.H), # FIXME: does not work, probably my keyboard
   ("1Y0", "INT5"): ('Y', Keycode.Y),
   ("1Y0", "INT6"): ('6', Keycode.SIX),
   ("1Y0", "INT10"): ('B', Keycode.B),
@@ -69,14 +69,14 @@ KEYMAP = {
   ("1Y0", "INT9"): ('T', Keycode.T),
   ("1Y0", "INT7"): ('5', Keycode.FIVE),
 
-  ("2Y0", "INT3"): ('=', Keycode.EQUALS), # does not work
-  ("2Y0", "INT4"): ('SPACE', Keycode.SPACE), # does not work
+  ("2Y0", "INT3"): ('=', Keycode.EQUALS), # FIXME: does not work
+  ("2Y0", "INT4"): ('SPACE', Keycode.SPACE), # FIXME: does not work
   ("2Y0", "INT5"): ('ENTER', Keycode.ENTER),
   ("2Y0", "INT6"): ('UNUSED', Keycode.F24),
   ("2Y0", "INT10"): ('UNUSED', Keycode.F24),
-  ("2Y0", "INT8"): ('SHIFT', None), # not yet implemented
-  ("2Y0", "INT9"): ('CONTROL', Keycode.F24), # not yet implemented
-  ("2Y0", "INT7"): ('FUNCTION', Keycode.F24), # not yet implemented
+  ("2Y0", "INT8"): ('SHIFT', None), # FIXME: not yet implemented
+  ("2Y0", "INT9"): ('CONTROL', Keycode.F24), # FIXME: not yet implemented
+  ("2Y0", "INT7"): ('FUNCTION', Keycode.F24), # FIXME: not yet implemented
 }
 
 def init_rows():
