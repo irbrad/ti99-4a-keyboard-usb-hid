@@ -36,7 +36,8 @@ class KeyScanner:
       char, keycode = self.keymap[key]
       print(f"key pressed: {char} (col {key[0]}, row {key[1]})")
 
-      self.keyboard.press(keycode)
+      if keycode is not None:
+        self.keyboard.press(keycode)
     else:
       print(f"key pressed: unknown (col {key[0]}, row {key[1]})")
 
@@ -45,6 +46,7 @@ class KeyScanner:
       char, keycode = self.keymap[key]
       print(f"key released: {char} (col {key[0]}, row {key[1]})")
 
-      self.keyboard.release(keycode)
+      if keycode is not None:
+        self.keyboard.release(keycode)
     else:
       print(f"key released: unknown (col {key[0]}, row {key[1]})")
